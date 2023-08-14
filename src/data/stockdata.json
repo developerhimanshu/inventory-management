@@ -1,0 +1,72 @@
+[
+  {
+    "itemName": "Item 1",
+    "inStock": 50,
+    "avg30dOrders": 10,
+    "unitPrice": 20.99,
+    "stockValue": 1049.5
+  },
+  {
+    "itemName": "Item 2",
+    "inStock": 75,
+    "avg30dOrders": 5,
+    "unitPrice": 12.49,
+    "stockValue": 936.75
+  },
+  {
+    "itemName": "Item 3",
+    "inStock": 30,
+    "avg30dOrders": 8,
+    "unitPrice": 8.99,
+    "stockValue": 269.7
+  },
+  {
+    "itemName": "Item 4",
+    "inStock": 100,
+    "avg30dOrders": 15,
+    "unitPrice": 6.99,
+    "stockValue": 699.0
+  },
+  {
+    "itemName": "Item 5",
+    "inStock": 20,
+    "avg30dOrders": 2,
+    "unitPrice": 24.99,
+    "stockValue": 499.8
+  },
+  {
+    "itemName": "Item 6",
+    "inStock": 60,
+    "avg30dOrders": 12,
+    "unitPrice": 18.5,
+    "stockValue": 1110.0
+  },
+  {
+    "itemName": "Item 7",
+    "inStock": 45,
+    "avg30dOrders": 6,
+    "unitPrice": 14.75,
+    "stockValue": 663.75
+  },
+  {
+    "itemName": "Item 8",
+    "inStock": 25,
+    "avg30dOrders": 3,
+    "unitPrice": 9.25,
+    "stockValue": 231.25
+  },
+  {
+    "itemName": "Item 9",
+    "inStock": 70,
+    "avg30dOrders": 9,
+    "unitPrice": 11.99,
+    "stockValue": 839.3
+  },
+  {
+    "itemName": "Item 10",
+    "inStock": 15,
+    "avg30dOrders": 4,
+    "unitPrice": 16.25,
+    "stockValue": 243.75
+  }
+]
