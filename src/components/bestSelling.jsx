@@ -1,10 +1,13 @@
 import React from "react";
-import stockdata from "../data/stockdata.json";
-const Stock = () => {
-  //   console.log(stockdata);
+import stockData from "../data/stockdata";
+
+const newStockData = stockData
+  .sort((a, b) => b.avg30dOrders - a.avg30dOrders)
+  .slice(0, 10);
+const BestSelling = () => {
   return (
-    <div className="text-white bg-gray-600 rounded-lg px-2 py-2 w-[700px] h-[60vh]">
-      <p className="text-2xl font-bold">In Stock</p>
+    <div className="text-white bg-gray-600 rounded-lg px-2 py-2 h-[43xvh] flex flex-col w-[350px]">
+      <p className="text-xl font-bold">Best Selling Products</p>
       <div className="flex justify-between font-extralight text-[12px] mt-4">
         <p>Item name</p>
         <p>In Stock</p>
@@ -13,7 +16,7 @@ const Stock = () => {
         <p>Stock Value</p>
       </div>
       <div className="flex flex-col gap-1">
-        {stockdata.map((item) => {
+        {newStockData.map((item) => {
           return (
             <div className="flex justify-between border-t-[1px] border-white/20 mt-1">
               <p className="w-[60px]">{item.itemName}</p>
@@ -29,4 +32,4 @@ const Stock = () => {
   );
 };
 
-export default Stock;
+export default BestSelling;

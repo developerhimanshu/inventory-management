@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { AiOutlineDashboard } from "react-icons/ai";
+import { AiOutlineDashboard, AiOutlineDollarCircle } from "react-icons/ai";
+import { FaPlus, FaTasks } from "react-icons/fa";
 const demoCategories = [
   { name: "Dashboard", icon: <AiOutlineDashboard size={20} /> },
-  { name: "Sales" },
-  { name: "Profit" },
-  { name: "Management" },
+  { name: "Add Product", icon: <FaPlus /> },
+  { name: "Profit", icon: <AiOutlineDollarCircle /> },
+  { name: "Management", icon: <FaTasks /> },
 ];
 const Sidebar = () => {
   return (
@@ -19,7 +20,7 @@ const Sidebar = () => {
             <Link to={`/${category.name.toLowerCase()}`}>
               <p
                 onClick={() => {}}
-                className="flex items-center gap-2 py-2 px-1 hover:bg-gray-700 justify-center"
+                className="flex items-center gap-2 py-2 px-4 hover:bg-gray-700 justify-between"
               >
                 {" "}
                 {category.icon ? category.icon : ""} {category.name}

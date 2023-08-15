@@ -2,7 +2,7 @@ import React from "react";
 
 const Returns = () => {
   return (
-    <div className="text-white bg-gray-600 rounded-lg px-2 py-2 w-[600px] h-[200px]">
+    <div className="text-white bg-gray-600 rounded-lg px-2 py-2 w-[700px] h-[200px]">
       <p className="text-2xl font-bold ">Returns</p>
       <div className="flex justify-around">
         <div className="flex flex-col items-center">
